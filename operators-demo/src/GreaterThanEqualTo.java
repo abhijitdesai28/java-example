@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class GreaterThanEqualTo
 {
-//    Psuedo code:
+//    Pseudo Code:
 //    if (no is greater than or equal to 100)
 //        ? print good number
 //        : print bad number
