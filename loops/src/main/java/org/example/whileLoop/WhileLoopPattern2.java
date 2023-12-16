@@ -8,23 +8,25 @@ public class WhileLoopPattern2
 //            *   *   *
 //        *   *   *   *
 //    *   *   *   *   *
-// not done
+// done
 
     public static void main(String[] args)
     {
         int row=5;
 
-        while(row>=1)
-        {
-            int column=5;
-            while(column>=row)
-            {
-                System.out.print("\t*");
-                column--;
+        int i = 1;
+        while (i <= row) {
+            int j = 1;
+            while (j <= row) {
+                if (j <= row - i) {
+                    System.out.print("  "); // Print spaces
+                } else {
+                    System.out.print("* ");
+                }
+                j++;
             }
             System.out.println();
-            row++;
+            i++;
         }
-
     }
 }
