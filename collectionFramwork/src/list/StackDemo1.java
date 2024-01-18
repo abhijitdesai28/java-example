@@ -41,6 +41,5 @@ public class StackDemo1
         {
             System.out.print(s+" ");//java c++ python php javaScript
         }
-
     }
 }
