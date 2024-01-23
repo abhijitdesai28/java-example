@@ -1,0 +1,18 @@
+Method overloading
+===================
+
+1) in a class having multiple method with the same name,but difference in arguments is called as method overloading
+
+
+in order to achieve method overloading we need to satisfy either 1 of the following 3 rules.
+-----------------------------------------------------------------------------------------------
+1)ther should be a change in the no of arguments.
+2)there should be a change in the datatype of the arguments.
+3)there should be a change in the order/sequence of the datatypes.
+
+NOTE:
+=====
+1)Both static and Non-Static methods can be Overload.
+2)Yes, we can Overload main() as well,but the Execution starts from the main() which accepts String[] as the arguments.
+3)Return type might be same or different.
+4)Method overloading is also referred as compile time Polymorphism.
