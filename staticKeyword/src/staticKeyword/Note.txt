@@ -1,0 +1,22 @@
+static
+======
+
+1)static is a keyword which can be used with class,variable,method,and blocks.
+
+2)the class loader loads all the static properties inside a memory location called as class area / static pool.
+
+3)all the static properties has to accessed with help of classname.
+
+4)static properties can be accessed directly or with help of classname in the same class.
+
+5)static properties can be accessed only with the help of classname in the different / another class.
+                syntax---classname.variablename   or  classname.methodname()
+
+
+
+NOTE
+=====
+1)static properties are loaded only once,  therefore they will have a single copy.
+
+2)all objects will implicitly be pointing to the static pool,therefore we can access static properties with object referance but
+     not a good practice.
