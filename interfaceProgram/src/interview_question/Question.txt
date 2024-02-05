@@ -1,0 +1,26 @@
+
+Interview Question:
+=======================
+
+question1
+-if we have interface 'A' and interface 'B' and both of them are contain same method and one
+  class called 'Demo' implements both of interface 'A','B'
+  then how many method we need to override
+
+answer-
+we need to override one method bcz both interface content same method means
+     same- access specifier
+     same -return type
+     same -no of argument /or empty argument
+
+--------------------------------------------------------------------------------------------------------
+question2
+-if we have interface 'A' and interface 'B' and both of them are contain same method but different argumeent
+ and one class called 'Demo' implements both of interface 'A','B'
+  then how many method we need to override
+
+answer-
+we need to override two method bcz both interface content different method means
+     same- access specifier
+     same -return type
+     but different -no of argument /or empty argument
