@@ -11,7 +11,7 @@ public class Main {
         String query="Select * from address";
         try{
             //all drivers imported
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             System.out.println("drivers loaded successfully");
         }catch (ClassNotFoundException e)
         {
