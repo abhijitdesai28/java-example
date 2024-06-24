@@ -1,2 +1,2 @@
 # java-example
-This repo contains java examples
+This repository contains java examples to illustrate the concepts
